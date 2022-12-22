@@ -7,4 +7,4 @@ function recursionFibonacci(n) {
 
 console.log(recursionFibonacci(0));
 console.log(recursionFibonacci(1));
-console.log(recursionFibonacci(6));
+console.log(recursionFibonacci(6)); 
