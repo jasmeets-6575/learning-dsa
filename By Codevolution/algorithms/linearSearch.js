@@ -3,9 +3,9 @@ function linearSearch(arr, target) {
         if (arr[i] === target){
             return i;
         } 
-        return -1;
     }
+        return -1;
 }
-console.log(linearSearch([-5 ,2 ,10 ,4 ,6] , "10"));
+console.log(linearSearch([-5 ,2 ,10 ,4 ,6] , 10));
 console.log(linearSearch([-5 ,2 ,10 ,4 ,6] , 6));
 console.log(linearSearch([-5 ,2 ,10 ,4 ,6] , 20));
