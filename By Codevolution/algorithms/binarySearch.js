@@ -10,7 +10,7 @@ function binarySearch(arr, target) {
         }
         if (target < arr[middleIndex]) 
         {
-            rightIndex = middleIndex - 1
+            rightIndex = middleIndex -1
         } 
         else 
         {
@@ -20,6 +20,6 @@ function binarySearch(arr, target) {
     return -1 
 }
 
-console.log(binarySearch([-5, 2, 10, 4, 6], 10))
-console.log(binarySearch([-5, 2, 10, 4, 6], 6))
-console.log(binarySearch([-5, 2, 10, 4, 6], 20))
+console.log(binarySearch([-5, 2, 4, 6, 10], 10))
+console.log(binarySearch([-5, 2, 4, 6, 10], 6))
+console.log(binarySearch([-5, 2, 4, 6, 10], 20))
