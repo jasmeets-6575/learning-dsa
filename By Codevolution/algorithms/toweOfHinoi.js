@@ -8,4 +8,4 @@ function toweOfHinoi(n, fromRod, toRod, usingRod) {
     toweOfHinoi(n - 1, usingRod, toRod, fromRod)
 }
 
-toweOfHinoi(3, 'A', 'C', 'B')
+toweOfHinoi(4, 'A', 'C', 'B')
