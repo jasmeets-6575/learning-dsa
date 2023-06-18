@@ -3,7 +3,7 @@
 //   for (let i = 1; i <= n; i++) {
 //     total += i;
 //   }
-//   return total;
+//   return total; 
 // }
 
 // let t1 = performance.now();
