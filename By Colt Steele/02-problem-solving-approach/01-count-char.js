@@ -24,18 +24,25 @@
 function charCount(str) {
   var result = {};
   for (var char of str) {
-    char = char.toLowerCase();
-    if (/[a-z0-9]/.test(char)) {
-      if (result[char] > 0) {
-        result[char]++;
-      }
-      else {
-        result[char] = 1;
-      }
+    if (isAlphaNumeric(char)) {
+      char = char.toLowerCase();
+      result[char] = ++result[char] || 1;
     }
   }
   return result;
 }
 
+function isAlphaNumeric(char) {
+  var char = char.charCodeAt(0);
+  if (
+    !(char > 47 && char < 58) &&
+    !(char > 64 && char < 91) &&
+    !(char > 96 && char < 123)
+  ) {
+    return false;
+  }
+  return true;
+}
+
 console.log(charCount("hello"));
-console.log(charCount("Hello, hi there"));
+console.log(charCount("Hello, hi ! there"));
