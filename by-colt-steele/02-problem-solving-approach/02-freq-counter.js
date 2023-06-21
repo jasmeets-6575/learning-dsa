@@ -30,7 +30,7 @@ function same(arr1, arr2) {
       return false;
     }
     if (freqCounter2[key ** 2] !== freqCounter1[key]) {
-      return true;
+      return false;
     }
   }
   return true;
