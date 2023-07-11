@@ -28,4 +28,4 @@ function search(arr, val) {
   }
   return -1;
 }
-console.log(search([1, 3,4,6,7,8,9], 4));
+console.log(search([1, 3, 4, 6, 7, 8, 9], 8));

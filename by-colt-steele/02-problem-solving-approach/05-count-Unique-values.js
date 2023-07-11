@@ -13,4 +13,4 @@ function countUniqueValues(arr) {
   return values;
 }
 
-console.log(countUniqueValues([-1, 1]));
+console.log(countUniqueValues([-1, 1, 3, 3, 5, 4, 1]));

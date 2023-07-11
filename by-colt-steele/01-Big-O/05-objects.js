@@ -6,4 +6,4 @@ let instructor = {
 
 console.log(Object.values(instructor));
 console.log(Object.entries(instructor));
-console.log(Object.keys(instructor));
+Object.keys(instructor).map((key) => console.log(key));
