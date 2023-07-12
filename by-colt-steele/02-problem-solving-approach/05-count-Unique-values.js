@@ -1,3 +1,4 @@
+//sorted array
 function countUniqueValues(arr) {
   let values;
   if (arr.length < 1) {
@@ -13,4 +14,4 @@ function countUniqueValues(arr) {
   return values;
 }
 
-console.log(countUniqueValues([-1, 1, 3, 3, 5, 4, 1]));
+console.log(countUniqueValues([-1, 1, 3, 3, 5, 4]));
