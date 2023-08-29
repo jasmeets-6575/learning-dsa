@@ -5,4 +5,4 @@ function isPalindrome(str) {
   return false;
 }
 
-console.log("Helo".slice(1, -1));
+console.log(isPalindrome("aabbaa"));
