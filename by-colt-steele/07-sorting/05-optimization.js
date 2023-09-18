@@ -9,10 +9,11 @@ function bubbleSort(arr) {
         arr[j + 1] = temp;
         noSwaps = false;
       }
+      console.log(arr);
     }
     if (noSwaps) break;
+    console.log("end loop");
   }
   return arr;
 }
-
-console.log(bubbleSort([37, 45, 29, 8]));
+console.log(bubbleSort([5, 3, 1, 4, 2]));
