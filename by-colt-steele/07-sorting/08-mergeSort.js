@@ -2,6 +2,7 @@ function mergeSort(arr1, arr2) {
   let results = [];
   let i = 0;
   let j = 0;
+
   while (i < arr1.length && arr2.length) {
     if (arr2[j] > arr1[i]) {
       results.push(arr1[i]);
@@ -10,6 +11,12 @@ function mergeSort(arr1, arr2) {
       results.push(arr1[j]);
       j++;
     }
+  }
+  while (i < arr1.length) {
+    results.push(arr1[i]);
+  }
+  while (j < arr2.length) {
+    results.push(arr1[j]);
   }
 }
 
